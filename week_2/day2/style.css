@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+}
+
+#container{
+    width: 80%;
+    height: 850px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+}
+
+#container .products{
+    width: 200px;
+    height: 350px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+#container img{
+    width: 70%;
+    height: 200px;
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    border: 1px solid blue;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 10px ;
+    /* transition: 5s; */
+}
+.box:hover{
+    transition: 1s;
+    transform: rotate(160deg);
+}

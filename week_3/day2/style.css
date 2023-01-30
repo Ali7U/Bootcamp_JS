@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eee;
+  font-family: "Tajawal", sans-serif;
+}
+
+.box {
+  width: 70%;
+  height: 100vh;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.box .information {
+  width: 250px;
+  height: 200px;
+  border-radius: 15px;
+  border: 3px solid;
+  box-shadow: 0px 0px 15px #444;
+  padding: 20px;
+  text-align: center;
+  transition: 0.5s;
+}
+ul {
+  list-style-type: none;
+}
+.h1{
+    font-size: 14px;
+}
+
+.information:hover {
+  transform: scale(1.1);
+  background-color: #444;
+  cursor: pointer;
+  color: #eee;
+}

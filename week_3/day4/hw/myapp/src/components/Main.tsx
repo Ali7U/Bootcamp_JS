@@ -16,7 +16,7 @@ export default function Main() {
       img: "https://media.istockphoto.com/id/1162594430/photo/beautiful-sunrise-view-at-dammam-al-khobar-corniche-saudi-arabia.jpg?s=612x612&w=0&k=20&c=ddDkRPoHcVjp2y_usR1CLH3Jqno0TiWjKrGUwGoaxYQ=",
     },
     {
-      img: "https://media.istockphoto.com/id/1271307757/photo/panorama-of-beautiful-historical-houses-in-rijal-almaa-heritage-village.jpg?s=612x612&w=0&k=20&c=RYNdqNgswQumhPjPhoNkFSvFutXo6haGqVciNgIOpek=",
+      img: "https://www.flydubai.com/en/media/Abha_Rijal_Amlaa2_2560x960_tcm8-152106.jpg",
     },
   ];
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -50,7 +50,7 @@ export default function Main() {
     <Flex
       w="full"
       bg="#edf3f8"
-      _dark={{ bg: "#3e3e3e" }}
+      _dark={{ bg: "#7286D3" }}
       p={10}
       alignItems="center"
       justifyContent="center"

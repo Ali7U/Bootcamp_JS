@@ -14,6 +14,7 @@ import {
   CloseButton,
 } from "@chakra-ui/react";
 import { AiOutlineMenu } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
   const bg = useColorModeValue("white", "gray.800");
@@ -39,7 +40,7 @@ export default function Nav() {
               <VisuallyHidden>Choc</VisuallyHidden>
             </chakra.a>
             <chakra.h1 fontSize="xl" fontWeight="medium" ml="2">
-              Choc
+              KSA
             </chakra.h1>
           </Flex>
           <HStack display="flex" alignItems="center" spacing={1}>
@@ -49,11 +50,13 @@ export default function Nav() {
               color="brand.500"
               display={{ base: "none", md: "inline-flex" }}
             >
-              <Button variant="ghost">Features</Button>
-              <Button variant="ghost">Pricing</Button>
-              <Button variant="ghost">Blog</Button>
-              <Button variant="ghost">Company</Button>
-              <Button variant="ghost">Sign in</Button>
+              <Button variant="ghost">
+                <Link to="/">Home</Link>
+              </Button>
+              <Button variant="ghost">
+                <Link to="/cities">Cities</Link>
+              </Button>
+             
             </HStack>
             <Button colorScheme="brand" size="sm">
               Get Started

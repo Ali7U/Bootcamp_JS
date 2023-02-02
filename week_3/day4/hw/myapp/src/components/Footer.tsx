@@ -7,9 +7,12 @@ export default function Footer() {
       w="full"
       bg="#edf3f8"
       _dark={{ bg: "#3e3e3e" }}
-      p={50}
+      // p={50}
+      pt={"15px"}
+      // pb={"15px"}
       alignItems="center"
       justifyContent="center"
+      p={0}
     >
       <Flex
         w="full"

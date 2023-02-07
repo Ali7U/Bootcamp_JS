@@ -1,0 +1,23 @@
+@media screen and (max-width: 390px) {
+  .css-jk8k0y {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    width: 30%;
+  }
+  .css-gmuwbf{
+    /* display: flex; */
+  }
+  .css-jk8k0y {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .css-134dbti{
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 47em){
+
+      .css-134dbti{
+    width: 100% !important;
+  }
+.css-jk8k0y {
+            grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+}}
